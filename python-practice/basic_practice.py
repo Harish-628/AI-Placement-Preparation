@@ -14,8 +14,9 @@ print("the largest number:",find_largest(3,6,8))
 #program 3 : Sum of the numbers from 1 to n
 def sum(n):
   for i in range (1 , n+1):
-    total+ = i
+    total=0
+    total += i
   return total 
-print("The sum of the numbers from 1 to n is ",sum(n))
+print("The sum of the numbers from 1 to n is ",sum(5))
 
     
